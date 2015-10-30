@@ -21,7 +21,7 @@ angular.module('starter', ['ionic', 'ngCordova','starter.controllers', 'starter.
       // org.apache.cordova.statusbar required
       StatusBar.styleLightContent();
     }
-     db = $cordovaSQLite.openDB("restaurante_restaurante.db");
+     db = $cordovaSQLite.openDB("tarea2_restaurante.db");
         $cordovaSQLite.execute(db, 'CREATE TABLE IF NOT EXISTS restaurante (id INTEGER PRIMARY KEY AUTOINCREMENT, nombre varchar(255),descripcion varchar(255),precio varchar(255))');
  
     
