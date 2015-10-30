@@ -11,12 +11,12 @@
   
   <label class="item item-input">
   <span class="input-label">Descripcion</span>
-  <input type="text" name="apellido" ng-model="menu.apellido" required>
+  <input type="text" name="descripcion" ng-model="menu.descripcion" required>
   </label>
   
   <label class="item item-input">
   <span class="input-label">Precio</span>
-  <input type="tel" name="telefono" ng-model="menu.precio" required >
+  <input type="tel" name="precio" ng-model="menu.precio" required >
   </label>
   
   
@@ -24,8 +24,8 @@
   
   <div class="padding">
   <p ng-show="agregarForm.nombre.$error.required">Escriba el nombre</p>
-  <p ng-show="agregarForm.nombre.$error.required">Escriba el apellido</p>
-  <p ng-show="agregarForm.telefono.$error.required">Escriba el telefono</p>
+  <p ng-show="agregarForm.descripcion.$error.required">Escriba la descipcion</p>
+  <p ng-show="agregarForm.precio.$error.required">Escriba el precio</p>
   
   
  <p>{{ statusMessage }}</p>
