@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.practica2378689" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0">
-  <name>practica2</name>
+<widget id="com.ionicframework.restaurante198740" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://phonegap.com/ns/1.0">
+  <name>restaurante</name>
   <description>
         An Ionic Framework and Cordova project.
     </description>
@@ -9,7 +9,7 @@
     </author>
   <content src="index.html"/>
   <access origin="*"/>
-<gap:plugin name="com.brodysoft.sqliteplugin" version="1.0.6" />
+  <gap:plugin name="com.brodysoft.sqliteplugin" version="1.0.6" />
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
