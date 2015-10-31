@@ -6,17 +6,17 @@
   
    <label class="item item-input">
   <span class="input-label">Nombre</span>
-  <input type="text" name="nombre" ng-model="persona.nombre" required>
+  <input type="text" name="nombre" ng-model="menu.nombre" required>
   </label>
   
   <label class="item item-input">
   <span class="input-label">Descripcion</span>
-  <input type="text" name="descripcion" ng-model="persona.descripcion" required>
+  <input type="text" name="descripcion" ng-model="menu.descripcion" required>
   </label>
   
   <label class="item item-input">
   <span class="input-label">Precio</span>
-  <input type="tel" name="precio" ng-model="persona.precio" required >
+  <input type="tel" name="precio" ng-model="menu.precio" required >
   </label>
   
   
@@ -32,7 +32,7 @@
  
   </div>
   
- <button type="button" class="button icon-left ion-android-checkbox-outline button-positive" ng-disabled="agregarForm.$invalid" ng-click="guardar(restaurante)">
+ <button type="button" class="button icon-left ion-android-checkbox-outline button-positive" ng-disabled="agregarForm.$invalid" ng-click="guardar(menu)">
   Guardar
 </button>
   
