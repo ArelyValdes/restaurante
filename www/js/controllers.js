@@ -66,7 +66,9 @@ angular.module('starter.controllers', [])
   };
   
   $scope.remove = function(chat) {
-      
+       Chats.remove(chat);
+  };
+      /*
        $cordovaSQLite.execute(db, 'DELETE FROM restaurante where id = ?',[chat.id])
     .then(function(result){
         statusMessage = "Borrado";
@@ -74,9 +76,8 @@ angular.module('starter.controllers', [])
     function(error){
         statusMessage = "Error: " + error.message;
     });
-}
-   /* Chats.remove(chat);
-  };*/
+}*/
+   
 })
 
 .controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
